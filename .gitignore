@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# environment variables
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
