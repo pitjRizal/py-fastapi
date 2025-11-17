@@ -8,3 +8,7 @@ router.include_router(
   prefix="/v1", 
   tags=["v1"],
 )
+
+@router.get("/")
+async def root():
+  return {"message": "Welcome to the API"}
